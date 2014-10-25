@@ -3,7 +3,8 @@
 
 ##Info on the API
 
-meshblu.octoblu.com
+[meshblu.octoblu.com](meshblu.octoblu.com)
+
 
 github.com/octoblu/meshblu
 
