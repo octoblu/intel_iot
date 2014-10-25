@@ -3,6 +3,8 @@ https://software.intel.com/en-us/html5/documentation/getting-started-with-intel-
 https://communities.intel.com/message/257322
 https://communities.intel.com/docs/DOC-23391
 
+https://chrome.google.com/webstore/detail/nodeblu/aanmmiaepnlibdlobmbhmfemjioahilm?hl=en-US
+
 Digital Write = {"mode" : "d_out", "pin" : 13 , "val" : 1};
 
 
