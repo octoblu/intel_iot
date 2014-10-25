@@ -6,7 +6,7 @@
 [meshblu.octoblu.com](meshblu.octoblu.com)
 
 
-github.com/octoblu/meshblu
+[github.com/octoblu/meshblu](github.com/octoblu/meshblu)
 
 ##Whats in the ZIP?
 
