@@ -1,4 +1,16 @@
 
+##Whats in the ZIP?
+
+There are two folders in the zip file in this repo. 
+
+/yo is a webapp to control your edison. sky.js is where you put your code. Change targetUUID to match your edison's (next step)
+
+meshblu_example is an Intel XDK node project that will allow you to message the edison/galileo to control pins.
+
+In that project file open up main.js and change UUID/TOKEN to match the UUID/TOKEN you'll get in the next step! 
+
+Upload/build the project and you're edison will be ready to be controlled through meshblu/nodeblu!
+
 
 ##Getting a UUID/TOKEN (Registering device)
 
