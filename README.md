@@ -1,6 +1,12 @@
 
 #READ EVERYTHING CAREFULLY!
 
+##Info on the API
+
+meshblu.octoblu.com
+
+github.com/octoblu/meshblu
+
 ##Whats in the ZIP?
 
 There are two folders in the zip file in this repo. 
