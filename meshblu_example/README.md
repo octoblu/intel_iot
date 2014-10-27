@@ -1,12 +1,11 @@
-Onboard LED Blink App
+Meshblu Example
 ============================
-A simple node.js application intended to blink the onboard LED on the Intel based development boards such as the Intel(R) Galileo and Edison with Arduino breakout board.
+A simple node.js application that lets you control basic io on the intel Edison via meshblu.
 
 Intel(R) XDK 
 -------------------------------------------
-This template is part of the Intel(R) XDK IoT Edition. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
-please visit the sample article page at TBA.
+
+Download the Intel(R) XDK at http://software.intel.com/en-us/html5. 
 
 
 Important App Files
