@@ -1,0 +1,153 @@
+/******************GLOBAL**************************/
+@-ms-viewport {
+    width: device-width;
+}
+
+html { 
+	width:100%; height:100%;
+	overflow-x:hidden;
+	font-family:Helvetica, Arial, sans-serif; 
+	-webkit-text-size-adjust:100%; 
+}
+
+* { 
+	margin:0; padding:0; 
+	-webkit-box-sizing:border-box; box-sizing:border-box;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-touch-action:none;
+}
+
+img { 
+    border:none; 
+}
+
+body {
+	width:100%;	height:100%;
+    overflow:hidden;
+    -webkit-user-select:none;
+    font-family:"AmbleRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input,textarea {
+    -webkit-user-select:text;
+    -moz-user-select:text;
+}
+
+::selection { 
+	background:#aaa; 
+	color:#fff; 
+}
+
+a:focus, a:active, a:hover { 
+    outline:0; 
+}
+
+.clear { 
+    clear:both; 
+}
+
+.wrapper { 
+    float:left; 
+}
+
+/******************* SMARTPHONE [DEFAULT STYLES] **************************/
+.masthead {
+	background-color:white;
+    height:50px;
+}
+
+.logo {
+    float:left;
+    margin:10px;
+}
+
+.content {
+    display:block;
+    width:100%; height:100%;
+	background-image:-webkit-gradient(linear,color-stop(0.01, rgb(0,84,154)),color-stop(0.16, rgb(2,90,160)),color-stop(1, rgb(11,125,193)));
+	background-image:-webkit-linear-gradient(rgb(0,84,154) 1%,rgb(2,90,160) 16%,rgb(11,125,193) 100%);
+	background-image:-ms-linear-gradient(rgb(0,84,154) 1%,rgb(2,90,160) 16%,rgb(11,125,193) 100%);
+	background-image:linear-gradient(rgb(0,84,154) 1%,rgb(2,90,160) 16%,rgb(11,125,193) 100%);
+	background:rgb(0,84,154) url("../images/swoops.png") no-repeat;
+    background-position:bottom center;
+    -webkit-background-size:cover; background-size:cover;
+}
+
+.headline {
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    font-size:48px;
+    line-height:150%;
+    color:rgb(255,255,255);
+    text-shadow:1px 1px 0px rgba(0,55,100,0.8);
+    text-align:center;
+}
+
+.button {
+    display:inline-block;
+    position:absolute;
+    top:65%; left:50%;
+    margin-left:-85px;
+    background-color:#a6a8aB;
+    background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(85%,rgba(255,255,255,0)));
+    background-image:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 85%);
+    background-image:-ms-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 85%);
+    background-image:linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0)85%);
+	width:170px; height:62px;
+	border:1px solid white;
+	-webkit-border-radius:8px; border-radius:8px;
+	-webkit-box-shadow:0px 1px 8px rgba(0,0,0,0.65); box-shadow:0px 1px 8px rgba(0,0,0,0.65);
+	font-family:inherit;
+    font-size:36px;
+	line-height:62px;
+    text-align:center;
+	color:rgb(17,125,193);
+	cursor:pointer;
+	text-shadow:0 1px 0 white;
+    -webkit-transition:background-color 0.2s ease; transition:background-color 0.2s ease;
+}
+
+.button:active, .button:focus { 
+    background-color:#fff; 
+}
+
+/************************ TABLET **************************/
+@media handheld,  screen and (min-width: 600px) and (min-height:640px), 
+only screen and (min-height: 440px) and (min-width:900px) {
+
+    .masthead { 
+        height:75px; 
+    }
+
+    .logo {
+        width:84px;
+        height:55px;
+        margin:10px;   
+    }
+
+    .content { 
+        background:rgb(0,84,154) url("../images/swoops-lg.png") no-repeat;
+        background-position:bottom center;
+        -webkit-background-size:cover; background-size:cover;
+    }
+
+    .headline { 
+        font-size:120px;
+        text-shadow:3px 3px 0px rgba(0,55,100,0.8);
+    }
+    
+    .button {
+      /*  margin-left:-193px; */
+        width:386px; height:142px;
+        border-width:2px;
+        -webkit-box-shadow:0px 1px 12px rgba(0,0,0,0.65);
+        box-shadow:0px 1px 12px rgba(0,0,0,0.65);
+        font-size:84px;
+        line-height:140px;
+        -webkit-border-radius:16px; border-radius:16px;
+        text-shadow:0 2px 0px rgb(255,255,255);
+    }
+}
